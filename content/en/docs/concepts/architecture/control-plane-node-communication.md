@@ -109,8 +109,8 @@ communication channel.
 
 As a replacement to the SSH tunnels, the Konnectivity service provides TCP level proxy for the
 control plane to cluster communication. The Konnectivity service consists of two parts: the
-Konnectivity server in the control plane network and the Konnectivity agents in the nodes network.
-The Konnectivity agents initiate connections to the Konnectivity server and maintain the network
+Connectivity server in the control plane network and the Konnectivity agents in the nodes network.
+The Connectivity agents initiate connections to the Konnectivity server and maintain the network
 connections.
 After enabling the Konnectivity service, all control plane to nodes traffic goes through these
 connections.
